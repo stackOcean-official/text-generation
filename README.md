@@ -1,6 +1,6 @@
 # text-generation
 
-Rest-API for text generation using GTP-2. 
+Rest-API for text generation using GTP-2.
 
 ## How to setup
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 Download the model:
 
-```
+```bash
 python -m app.save_model
 ```
 

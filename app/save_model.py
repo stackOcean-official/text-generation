@@ -5,5 +5,5 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
 model = AutoModelForCausalLM.from_pretrained("gpt2")
 
-torch.save(model, "model/gpt2.pt")
-torch.save(tokenizer, "model/gpt2-tokenizer.pt")
+torch.save(model, "model/model.pt")
+torch.save(tokenizer, "model/tokenizer.pt")
